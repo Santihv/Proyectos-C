@@ -10,15 +10,15 @@ int main()
 	int x,outer,inner,temp;
 
 /* populate the array */
-	srand((unsigned)time(NULL));
+	srand((unsigned)time(NULL));				// inicializa los numeros random
 	for(x=0;x<SIZE;x++)
-		numbers[x] = rand() % 100 + 1;
+		numbers[x] = rand() % 100 + 1;			// genera un numero random de 0 a 99 + 1
 
 /* Display the unsorted array */
 	puts("Unsorted array:");
 	for(x=0;x<SIZE;x++)
 		printf(" %3d",numbers[x]);
-	putchar('\n');
+	putchar('\n');								
 
 /* Sort the array */
 	for(outer=0;outer<SIZE;outer++)

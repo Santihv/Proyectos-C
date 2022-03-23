@@ -3,7 +3,7 @@
 int main()
 {
 	int age;
-	char *classification;
+	char *classification;						// Puntero miedo
 
 	printf("Enter your age: ");
 	scanf("%d",&age);

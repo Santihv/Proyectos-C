@@ -3,9 +3,9 @@
 char *repeat(char r)
 {
 	int x;
-	char string[32];
+	static char string[32];
 
-	for(x=0;x<32;x++)
+	for(x=0;x<sizeof(string);x++)
 		string[x] = r;
 
 	return string;
