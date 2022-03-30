@@ -17,7 +17,7 @@ int main()
 	};
 	int x;
 
-	week[1] = week[5];
+	week[1] = week[5];						//
 
 	puts("This week's forecast:");
 	for(x=0;x<7;x++)

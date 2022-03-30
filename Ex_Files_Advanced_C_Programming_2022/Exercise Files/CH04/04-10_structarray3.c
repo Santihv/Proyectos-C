@@ -13,7 +13,7 @@ int main()
 		{ "Wednesday", 73.8 },
 		{ "Thursday", 65.1 },
 		{ "Friday", 72.8 },
-		{"Saturday", 75.2 }
+		{ "Saturday", 75.2 }
 	};
 	int x;
 
